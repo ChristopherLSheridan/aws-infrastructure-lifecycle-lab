@@ -1,0 +1,29 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+**/tfplan
+crash.log
+crash.*.log
+*.tfvars
+!*.tfvars.example
+.terraform.tfvars.lock.info
+
+# Ansible
+ansible/inventory.generated.ini
+ansible/group_vars/all/vault.yml
+*.retry
+
+# SSH keys and credentials
+*.pem
+*.key
+.env
+.env.*
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
